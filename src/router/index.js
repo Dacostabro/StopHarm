@@ -15,9 +15,7 @@ const routes = [
     path: '/home',
     component: Home
   },
-
-
-  /*
+  
   {
     path: '/alternatives',
     component: AlternativesPage
@@ -37,7 +35,7 @@ const routes = [
     path: '/writing',
     component: WritingPage
   },
- */
+ 
 ]
 
 const router = createRouter({

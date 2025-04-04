@@ -9,8 +9,21 @@
         <ion-content>
             <h2>Home</h2>
 
-            <ion-button (click) ="function()">Default</ion-button>
+            <a href = "/alternatives">
+                <ion-button>Alternatives</ion-button>
+            </a>
 
+            <a href = "/grounding">
+                <ion-button>Grounding</ion-button>
+            </a>
+
+            <a href = "/hotlines">
+                <ion-button>Hotlines</ion-button>
+            </a>
+
+            <a href = "/writing">
+                <ion-button>Writing</ion-button>
+            </a>
 
             <ion-list>
                 <ion-item>List 1</ion-item>
