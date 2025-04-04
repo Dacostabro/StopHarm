@@ -7,17 +7,10 @@
             </ion-toolbar>
         </ion-header>
         <ion-content>
-            <h2>Home</h2>
+            <h2>Alternatives</h2>
+            
+            Note: an accordion would be good here
 
-            <ion-button (click) ="function()">Default</ion-button>
-
-
-            <ion-list>
-                <ion-item>List 1</ion-item>
-                <ion-item>List 2</ion-item>
-                <ion-item>List 3</ion-item>
-                <ion-item>List 4</ion-item>
-            </ion-list>
         </ion-content>
     </ion-page>
 </template>
@@ -31,9 +24,7 @@ import {
     IonToolbar, 
     IonContent, 
     IonList, 
-    IonItem, 
-    IonButton,
-
+    IonItem 
 } from '@ionic/vue';
 
 export default {
@@ -47,7 +38,6 @@ export default {
         IonContent,
         IonList,
         IonItem,
-        IonButton,
 
     }
 
