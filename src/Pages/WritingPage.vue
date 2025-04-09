@@ -9,7 +9,11 @@
         <ion-content>
             <h2>How are you?</h2>
             
-            NOTE: Textbox in here to write in
+
+            <ion-item>
+                <ion-input label="Text input" placeholder="Enter text"></ion-input>
+            </ion-item>
+
 
         </ion-content>
     </ion-page>
@@ -24,7 +28,8 @@ import {
     IonToolbar, 
     IonContent, 
     IonList, 
-    IonItem 
+    IonItem,
+    IonInput
 } from '@ionic/vue';
 
 export default {
@@ -38,6 +43,7 @@ export default {
         IonContent,
         IonList,
         IonItem,
+        IonInput
 
     }
 
