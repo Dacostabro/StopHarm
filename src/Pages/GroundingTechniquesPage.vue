@@ -9,6 +9,10 @@
         <ion-content>
             <h2>Grounding Techniques</h2>
             
+            <a href = "/home">
+                <ion-button>Back to Home</ion-button>
+            </a>
+            
             Note: an accordion would be good here
 
         </ion-content>

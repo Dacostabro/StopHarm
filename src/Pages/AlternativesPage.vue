@@ -8,6 +8,11 @@
         </ion-header>
         <ion-content>
             <h2>Alternatives</h2>
+
+            <a href = "/home">
+                <ion-button>Back to Home</ion-button>
+            </a>
+
             <ion-accordion-group>
                 <ion-accordion value="first">
                 <ion-item slot="header" color="light">

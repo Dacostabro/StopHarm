@@ -9,6 +9,10 @@
         <ion-content>
             <h2>How are you?</h2>
             
+            <a href = "/home">
+                <ion-button>Back to Home</ion-button>
+            </a>
+            
 
             <ion-item>
                 <ion-input label="Text input" placeholder="Enter text"></ion-input>
