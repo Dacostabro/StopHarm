@@ -10,19 +10,19 @@
             <h2>Home</h2>
 
             <a href = "/alternatives">
-                <ion-button>Alternatives</ion-button>
+                <ion-button expand="block">Alternatives</ion-button>
             </a>
 
             <a href = "/grounding">
-                <ion-button>Grounding</ion-button>
+                <ion-button expand="block">Grounding</ion-button>
             </a>
 
             <a href = "/hotlines">
-                <ion-button>Hotlines</ion-button>
+                <ion-button expand="block">Hotlines</ion-button>
             </a>
 
             <a href = "/writing">
-                <ion-button>Writing</ion-button>
+                <ion-button expand="block">Writing</ion-button>
             </a>
 
             <ion-list>

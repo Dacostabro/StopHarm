@@ -12,7 +12,7 @@
             <a href = "/home">
                 <ion-button>Back to Home</ion-button>
             </a>
-
+            
             <ion-list :inset="true">
 
                 <h3>Crisis Text Line</h3>
@@ -192,18 +192,82 @@
                 <ion-item>
                     <ion-label>525-510-2550</ion-label>
                 </ion-item>
-                
-
-                
-
-
-
-
-                <h4>Name</h4>
+                <h4>South Africa</h4>
                 <ion-item>
-                    <ion-label>Number</ion-label>
+                    <ion-label>0861-322-322</ion-label>
+                </ion-item>
+                <h4>Spain</h4>
+                <ion-item>
+                    <ion-label>717 003 717</ion-label>
+                </ion-item>
+                <h4>Switzerland</h4>
+                <ion-item>
+                    <ion-label>143</ion-label>
+                </ion-item>
+                <h4>Thailand</h4>
+                <ion-item>
+                    <ion-label>02-249-9977</ion-label>
+                </ion-item>
+                <h4>Ukraine</h4>
+                <ion-item>
+                    <ion-label>0487- 327715</ion-label>
+                </ion-item>
+                <h4>United Kingdom</h4>
+                <ion-item>
+                    <ion-label>08457-90-90-90</ion-label>
+                </ion-item>
+                <h4>United Kingdom - Text</h4>
+                <ion-item>
+                    <ion-label>07725 90 90 90</ion-label>
+                </ion-item>
+                <h4>Zimbabwe</h4>
+                <ion-item>
+                    <ion-label>080 12 333 333</ion-label>
                 </ion-item>
 
+                <h3>Veterans Crisis Hotlines</h3>
+                <h4>Military Helpline</h4>
+                <ion-item>
+                    <ion-label>1-888-457-4838</ion-label>
+                </ion-item>
+                <h4>National Call Center for Homeless Veterans</h4>
+                <ion-item>
+                    <ion-label>1-877-424-3838</ion-label>
+                </ion-item>
+                <h4>VA National Caregiver Support Line</h4>
+                <ion-item>
+                    <ion-label>1-855-260-3274</ion-label>
+                </ion-item>
+                <h4>Veterans Crisis Line</h4>
+                <ion-item>
+                    <ion-label>1-800-273-8255</ion-label>
+                </ion-item>
+
+                <h3>Youth/Teen Crisis Intervention Hotlines</h3>
+                <h4>Boystown National Hotline</h4>
+                <ion-item>
+                    <ion-label>1-800-448-3000</ion-label>
+                </ion-item>
+                <h4>LGBT Youth Suicide Hotline</h4>
+                <ion-item>
+                    <ion-label>1-866-488-7386</ion-label>
+                </ion-item>
+                <h4>LGBT Youth Suicide Hotline - Text "Trevor" to:</h4>
+                <ion-item>
+                    <ion-label>1-202-304-1200</ion-label>
+                </ion-item>
+                <h4>Teen Text Line - Text "TEEN" to:</h4>
+                <ion-item>
+                    <ion-label>839863</ion-label>
+                </ion-item>
+                <h4>Youthline</h4>
+                <ion-item>
+                    <ion-label>1-877-968-8454</ion-label>
+                </ion-item>
+                <h4>Youth Development International Crisis Hotline</h4>
+                <ion-item>
+                    <ion-label>1-800-448-4663</ion-label>
+                </ion-item>
         </ion-list>
         </ion-content>
     </ion-page>
