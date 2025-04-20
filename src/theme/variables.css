@@ -3,6 +3,7 @@
   /*Variables*/
 
   --ion-background-color: #77a3cf;
+
   --ion-text-color: black;
 
 
@@ -72,19 +73,48 @@
 }
 
 ion-button {
-  --background: #93e9be;
-  --background-activated: #88f4be;
-  --background-focused: #88f4be;
-
+  --background: yellow;
   --box-shadow: 0 10px 6px 0 rgb(0, 0, 0, 0.25);
 
+  width: 390px;
+  place-items: center;
+
+  
   --padding-top: 10px;
   --padding-bottom: 10px;
-
+  
 }
 
 #alternatives_button {
-  --background: white;
-  --background-activated: yellow;
-  --background-focused: green;
+	--background: #a3c6ef;
+	width: 190px;
+
 }
+#grounding_button {
+	--background: #a6a3ef;
+	text-align: center;
+	vertical-align: middle;
+	margin: 10px auto;
+
+
+}
+#hotlines_button {
+	--background: #a3c6ef;
+	width: 190px;
+
+}
+#writing_button {
+	--background: #a3c6ef;
+	margin: 10px auto;
+
+
+}
+
+.row1_container {
+	display: flex;
+	justify-content: center;
+	
+
+  }
+
+

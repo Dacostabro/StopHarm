@@ -9,28 +9,28 @@
         <ion-content>
             <h2>Home</h2>
 
-            <a href = "/alternatives">
-                <ion-button id = "alternatives_button" expand="block">Alternatives</ion-button>
-            </a>
-
             <a href = "/grounding">
                 <ion-button id = "grounding_button" expand="block">Grounding</ion-button>
             </a>
 
-            <a href = "/hotlines">
-                <ion-button id = "hotlines_button" expand="block">Hotlines</ion-button>
-            </a>
+            <div class="row1_container">
+                <a href = "/hotlines">
+                    <ion-button id = "hotlines_button" expand="block">Hotlines</ion-button>
+                </a>
+
+                <a href = "/alternatives">
+                    <ion-button id = "alternatives_button" expand="block">Alternatives</ion-button>
+                </a>
+            </div>
 
             <a href = "/writing">
                 <ion-button id = "writing_button" expand="block">Writing</ion-button>
             </a>
 
-            <ion-list>
-                <ion-item>List 1</ion-item>
-                <ion-item>List 2</ion-item>
-                <ion-item>List 3</ion-item>
-                <ion-item>List 4</ion-item>
-            </ion-list>
+           
+            <label id="counter">0</label>
+
+
         </ion-content>
     </ion-page>
 </template>
