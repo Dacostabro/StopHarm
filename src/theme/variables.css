@@ -1,23 +1,90 @@
-/* For information on how to create your own theme, please see:
-http://ionicframework.com/docs/theming/ */
-/* Set variables for all modes */
 :root {
-    /* Set the background of the entire app */
-    --ion-background-color:  #80aad5;
-    
 
-  
-    /* Set the font family of the entire app */
-    --ion-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', sans-serif;
-  }
-  
-  /* Set text color of the entire app for iOS only */
-  :root.ios {
-    --ion-text-color: white;
-  }
-  
-  /* Set text color of the entire app for Material Design only */
-  :root.md {
-    --ion-text-color: white;
-  }
+  /*Variables*/
 
+  --ion-background-color: #77a3cf;
+  --ion-text-color: black;
+
+
+	--ion-color-primary: #77a3cf;
+	--ion-color-primary-rgb: 119,163,207;
+	--ion-color-primary-contrast: #000000;
+	--ion-color-primary-contrast-rgb: 0,0,0;
+	--ion-color-primary-shade: #698fb6;
+	--ion-color-primary-tint: #85acd4;
+
+	--ion-color-secondary: #a3c6ef;
+	--ion-color-secondary-rgb: 163,198,239;
+	--ion-color-secondary-contrast: #000000;
+	--ion-color-secondary-contrast-rgb: 0,0,0;
+	--ion-color-secondary-shade: #8faed2;
+	--ion-color-secondary-tint: #acccf1;
+
+	--ion-color-tertiary: #a6a3ef;
+	--ion-color-tertiary-rgb: 166,163,239;
+	--ion-color-tertiary-contrast: #000000;
+	--ion-color-tertiary-contrast-rgb: 0,0,0;
+	--ion-color-tertiary-shade: #928fd2;
+	--ion-color-tertiary-tint: #afacf1;
+
+	--ion-color-success: #2dd55b;
+	--ion-color-success-rgb: 45,213,91;
+	--ion-color-success-contrast: #000000;
+	--ion-color-success-contrast-rgb: 0,0,0;
+	--ion-color-success-shade: #28bb50;
+	--ion-color-success-tint: #42d96b;
+
+	--ion-color-warning: #ffc409;
+	--ion-color-warning-rgb: 255,196,9;
+	--ion-color-warning-contrast: #000000;
+	--ion-color-warning-contrast-rgb: 0,0,0;
+	--ion-color-warning-shade: #e0ac08;
+	--ion-color-warning-tint: #ffca22;
+
+	--ion-color-danger: #c5000f;
+	--ion-color-danger-rgb: 197,0,15;
+	--ion-color-danger-contrast: #ffffff;
+	--ion-color-danger-contrast-rgb: 255,255,255;
+	--ion-color-danger-shade: #ad000d;
+	--ion-color-danger-tint: #cb1a27;
+
+	--ion-color-light: #f6f8fc;
+	--ion-color-light-rgb: 246,248,252;
+	--ion-color-light-contrast: #000000;
+	--ion-color-light-contrast-rgb: 0,0,0;
+	--ion-color-light-shade: #d8dade;
+	--ion-color-light-tint: #f7f9fc;
+
+	--ion-color-medium: #5f5f5f;
+	--ion-color-medium-rgb: 95,95,95;
+	--ion-color-medium-contrast: #ffffff;
+	--ion-color-medium-contrast-rgb: 255,255,255;
+	--ion-color-medium-shade: #545454;
+	--ion-color-medium-tint: #6f6f6f;
+
+	--ion-color-dark: #2f2f2f;
+	--ion-color-dark-rgb: 47,47,47;
+	--ion-color-dark-contrast: #ffffff;
+	--ion-color-dark-contrast-rgb: 255,255,255;
+	--ion-color-dark-shade: #292929;
+	--ion-color-dark-tint: #444444;
+
+}
+
+ion-button {
+  --background: #93e9be;
+  --background-activated: #88f4be;
+  --background-focused: #88f4be;
+
+  --box-shadow: 0 10px 6px 0 rgb(0, 0, 0, 0.25);
+
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+
+}
+
+#alternatives_button {
+  --background: white;
+  --background-activated: yellow;
+  --background-focused: green;
+}
