@@ -53,7 +53,7 @@
                          @ionChange = "dateUpdate($event.detail.value)"
                      ></ion-datetime>
                  </ion-modal>
-                 <ion-button id = counter_button expand = "block" value = "0">0</ion-button>
+                 <label id = counter_button expand = "block" value = "0">0</label>
              </div>
 
 
@@ -102,6 +102,7 @@ export default {
 
     methods:{
          dateUpdate(input){
+            console.log("DID I MAKE IT");
              // calculate the chosen day in MS, find the difference between it and current date, and display it.
              const date = new Date(input);
              let chosenMS = date.getTime();
