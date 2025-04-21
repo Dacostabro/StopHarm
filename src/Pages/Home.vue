@@ -27,8 +27,18 @@
                 <ion-button id = "writing_button" expand="block">Writing</ion-button>
             </a>
 
-           
-            <label id="counter">0</label>
+           <div class="counter_container">
+                <ion-datetime-button datetime = "datetime"></ion-datetime-button>
+                <ion-modal :keep-contents-mounted="true">
+                    <ion-datetime 
+                        id="datetime"
+                        show-default-buttons = "true"
+                        presentation="date"
+                        @ionChange = "dateUpdate($event.detail.value)"
+                    ></ion-datetime>
+                </ion-modal>
+                <ion-button id = counter_button expand = "block" value = "0">0</ion-button>
+            </div>
 
 
         </ion-content>
@@ -62,7 +72,23 @@ export default {
         IonItem,
         IonButton,
 
+    },
+
+    methods:{
+        dateUpdate(input){
+            // calculate the chosen day in MS, find the difference between it and current date, and display it.
+            const date = new Date(input);
+            let chosenMS = date.getTime();
+            let msDifference = totalMS-chosenMS;
+            let daysDifference = Math.floor(msDifference/(1000*60*60*24));
+            document.getElementById('counter_button').innerHTML = daysDifference;
+        }
     }
 
 }
+
+// recalculate the current date
+let currentDate = new Date
+let totalMS = currentDate.getTime();
+
 </script>
