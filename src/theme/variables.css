@@ -72,49 +72,102 @@
 
 }
 
+/*Basic Button Design*/
 ion-button {
   --background: yellow;
   --box-shadow: 0 10px 6px 0 rgb(0, 0, 0, 0.25);
+  text-decoration: none;
+
+
 
   width: 390px;
-  place-items: center;
-
   
-  --padding-top: 10px;
-  --padding-bottom: 10px;
+  --padding-top: 15px;
+  --padding-bottom: 15px;
   
 }
 
+#hotlines_button {
+	--background: #a3c6ef;
+	width: 150px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
 #alternatives_button {
 	--background: #a3c6ef;
-	width: 190px;
+	width: 240px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 
 }
 #grounding_button {
+
+	height: 60px;
+	display: block;
+	margin: 0 auto;
 	--background: #a6a3ef;
-	text-align: center;
-	vertical-align: middle;
-	margin: 10px auto;
-
-
-}
-#hotlines_button {
-	--background: #a3c6ef;
-	width: 190px;
-
+	margin-bottom: 25px;
 }
 #writing_button {
+	display: block;
+	margin: 0 auto;
 	--background: #a3c6ef;
-	margin: 10px auto;
-
 
 }
-
+/*Make Alternatives and Groudning Buttons centered next to each other*/
 .row1_container {
 	display: flex;
 	justify-content: center;
-	
-
   }
 
+.home_header_bg {
+	--background: #5ea2df;
+	text-align: center;
+}
 
+.home_footer_bg {
+	--background: #5da2df;
+	text-align: center;
+	text-size-adjust: 90%;
+}
+
+.alternatives_header_bg {
+	--background: #a2c6f0;
+}
+
+.alternatives_footer_bg {
+	--background: #a2c6f0;
+}
+
+.grounding_header_bg {
+	--background: #a4a5ee;
+}
+
+.grounding_footer_bg {
+	--background: #a4a5ee;
+}
+
+.hotlines_header_bg {
+	--background: #a2c6f0;
+}
+
+.hotlines_footer_bg {
+	--background: #a2c6f0;
+}
+
+.writing_header_bg {
+	--background: #5ea2df;
+}
+
+.writing_footer_bg {
+	--background: #5ea2df;
+}
+
+ion-card {
+	--background: #c8dcef;
+	color: black;
+	height: 200px;
+	text-align: center;
+	align-items: center;
+	vertical-align: middle;
+}

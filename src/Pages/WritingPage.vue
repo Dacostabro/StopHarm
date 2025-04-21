@@ -2,10 +2,18 @@
     <ion-page> 
         
         <ion-header>
-            <ion-toolbar>
-                <ion-title>StopHarm</ion-title>
+            <ion-toolbar class="writing_header_bg">
+                <ion-title></ion-title>
             </ion-toolbar>
         </ion-header>
+
+        <ion-footer>
+            <ion-toolbar class="writing_footer_bg">
+                <ion-title></ion-title>
+            </ion-toolbar>
+        </ion-footer>
+
+        
         <ion-content>
             <h2>How are you?</h2>
             

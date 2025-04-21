@@ -2,10 +2,17 @@
     <ion-page> 
         
         <ion-header>
-            <ion-toolbar>
-                <ion-title>StopHarm</ion-title>
+            <ion-toolbar class="grounding_header_bg">
+                <ion-title></ion-title>
             </ion-toolbar>
         </ion-header>
+
+        <ion-footer>
+            <ion-toolbar class="grounding_footer_bg">
+                <ion-title></ion-title>
+            </ion-toolbar>
+        </ion-footer>
+        
         <ion-content>
             <h2>Grounding Techniques</h2>
             

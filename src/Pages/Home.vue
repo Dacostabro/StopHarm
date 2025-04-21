@@ -2,33 +2,45 @@
     <ion-page> 
         
         <ion-header>
-            <ion-toolbar>
-                <ion-title>StopHarm</ion-title>
+            <ion-toolbar class="home_header_bg">
+                    <ion-title>StopHarm</ion-title>
             </ion-toolbar>
         </ion-header>
-        <ion-content>
-            <h2>Home</h2>
+
+        <ion-footer>
+            <ion-toolbar class="home_footer_bg">
+                <ion-title>You've visited ## days in a row. Good job!</ion-title>
+            </ion-toolbar>
+        </ion-footer>
+
+        <ion-content class="ion-padding">
 
             <a href = "/grounding">
-                <ion-button id = "grounding_button" expand="block">Grounding</ion-button>
+                <ion-button id = "grounding_button">Grounding</ion-button>
             </a>
+
+
+            <ion-card>
+                <ion-card-content>
+                    “There is no passion to be found playing small—in settling for a life that is less than the one you are capable of living.” —Nelson Mandela
+                </ion-card-content>
+            </ion-card>
 
             <div class="row1_container">
                 <a href = "/hotlines">
-                    <ion-button id = "hotlines_button" expand="block">Hotlines</ion-button>
+                    <ion-button id = "hotlines_button">Hotlines</ion-button>
                 </a>
 
                 <a href = "/alternatives">
-                    <ion-button id = "alternatives_button" expand="block">Alternatives</ion-button>
+                    <ion-button id = "alternatives_button">Alternatives</ion-button>
                 </a>
             </div>
 
-            <a href = "/writing">
-                <ion-button id = "writing_button" expand="block">Writing</ion-button>
-            </a>
 
-           
-            <label id="counter">0</label>
+            <ion-item>
+                <ion-input label="What's on your mind?" placeholder="Write as much as you need. Nothing will be stored. You are safe to write whatever you need."></ion-input>
+            </ion-item>
+
 
 
         </ion-content>
@@ -46,6 +58,11 @@ import {
     IonList, 
     IonItem, 
     IonButton,
+    IonCard,
+    IonCardContent,
+    IonCardHeader,
+    IonCardSubtitle,
+    IonCardTitle,
 
 } from '@ionic/vue';
 
@@ -61,6 +78,11 @@ export default {
         IonList,
         IonItem,
         IonButton,
+        IonCard,
+        IonCardContent,
+        IonCardHeader,
+        IonCardSubtitle,
+        IonCardTitle,
 
     }
 
