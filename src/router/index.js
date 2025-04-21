@@ -3,7 +3,6 @@ import Home from '../Pages/Home.vue';
 import AlternativesPage from '../Pages/AlternativesPage.vue';
 import GroundingTechniquesPage from '../Pages/GroundingTechniquesPage.vue';
 import HotlinesPage from '../Pages/HotlinesPage.vue';
-import WritingPage from '../Pages/WritingPage.vue';
 
 const routes = [
   {
@@ -29,11 +28,6 @@ const routes = [
   {
     path: '/hotlines',
     component: HotlinesPage
-  },
-
-  {
-    path: '/writing',
-    component: WritingPage
   },
  
 ]

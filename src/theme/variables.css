@@ -155,14 +155,6 @@ ion-button {
 	--background: #a2c6f0;
 }
 
-.writing_header_bg {
-	--background: #5ea2df;
-}
-
-.writing_footer_bg {
-	--background: #5ea2df;
-}
-
 ion-card {
 	--background: #c8dcef;
 	color: black;
@@ -171,3 +163,16 @@ ion-card {
 	align-items: center;
 	vertical-align: middle;
 }
+
+ion-textarea.custom {
+    --background: #bfd6ea;
+    --color: black;
+    --padding-end: 10px;
+    --padding-start: 10px;
+    --placeholder-color: black;
+    --placeholder-opacity: 0.8;
+	height: 300px;
+	margin-bottom: 25px;
+  }
+
+ 
