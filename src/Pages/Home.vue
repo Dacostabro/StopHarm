@@ -50,6 +50,8 @@
                          id="datetime"
                          show-default-buttons = "true"
                          presentation="date"
+                         max="2099"
+                         onfocus = "this.max = new Date().toISOString()"
                          @ionChange = "dateUpdate($event.detail.value)"
                      ></ion-datetime>
                  </ion-modal>
@@ -81,7 +83,7 @@ import {
 } from '@ionic/vue';
 
 export default {
-    
+
     components: {
 
         IonPage,
@@ -108,7 +110,6 @@ export default {
              let msDifference = totalMS-chosenMS;
              let daysDifference = Math.floor(msDifference/(1000*60*60*24));
              document.getElementById('counter_button').innerHTML = daysDifference;
-             console.log(chosenMS);
          }
     }
 
