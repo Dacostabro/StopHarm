@@ -114,7 +114,7 @@ export default {
              let chosenMS = date.getTime();
              let msDifference = totalMS-chosenMS;
              let daysDifference = Math.floor(msDifference/(1000*60*60*24));
-             document.getElementById('counter_button').innerHTML = daysDifference;
+             document.getElementById('counter').innerHTML = daysDifference;
          }
     }
 
