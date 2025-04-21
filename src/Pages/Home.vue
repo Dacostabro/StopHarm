@@ -36,11 +36,12 @@
                 </a>
             </div>
 
+            <a href = "/writing">
+                <ion-button id = "writing_button" expand="block">Writing</ion-button>
+            </a>
 
-            <ion-item>
-                <ion-input label="What's on your mind?" placeholder="Write as much as you need. Nothing will be stored. You are safe to write whatever you need."></ion-input>
-            </ion-item>
-
+           
+            <label id="counter">0</label>
 
 
         </ion-content>
@@ -84,7 +85,23 @@ export default {
         IonCardSubtitle,
         IonCardTitle,
 
+    },
+
+    methods:{
+        dateUpdate(input){
+            // calculate the chosen day in MS, find the difference between it and current date, and display it.
+            const date = new Date(input);
+            let chosenMS = date.getTime();
+            let msDifference = totalMS-chosenMS;
+            let daysDifference = Math.floor(msDifference/(1000*60*60*24));
+            document.getElementById('counter_button').innerHTML = daysDifference;
+        }
     }
 
 }
+
+// recalculate the current date
+let currentDate = new Date
+let totalMS = currentDate.getTime();
+
 </script>
