@@ -36,11 +36,13 @@
                 </a>
             </div>
 
-            <ion-item>
-                <ion-input label="How are you?" placeholder="Write as little or as much as you would like. Your responses are not stored.ini"></ion-input>
-            </ion-item>
 
-           
+            <ion-textarea
+                aria-label="How are you doing today?"
+                placeholder="Nothing that you write will be saved. Write as little or as much as you need."
+                class="custom"
+                auto-grow="true"
+        ></ion-textarea>
 
 
             <div class="counter_container">
@@ -55,7 +57,7 @@
                          @ionChange = "dateUpdate($event.detail.value)"
                      ></ion-datetime>
                  </ion-modal>
-                 <ion-button id = counter_button expand = "block" value = "0">0</ion-button>
+                 <label id = counter expand = "block" value = "0">0</label>
              </div>
 
 
@@ -79,6 +81,7 @@ import {
     IonCardHeader,
     IonCardSubtitle,
     IonCardTitle,
+    IonTextarea,
 
 } from '@ionic/vue';
 
@@ -99,11 +102,13 @@ export default {
         IonCardHeader,
         IonCardSubtitle,
         IonCardTitle,
+        IonTextarea,
 
     },
 
     methods:{
          dateUpdate(input){
+            console.log("DID I MAKE IT");
              // calculate the chosen day in MS, find the difference between it and current date, and display it.
              const date = new Date(input);
              let chosenMS = date.getTime();
