@@ -26,6 +26,8 @@
                 </ion-card-content>
             </ion-card>
 
+
+
             <div class="row1_container">
                 <a href = "/hotlines">
                     <ion-button id = "hotlines_button">Hotlines</ion-button>
@@ -123,6 +125,5 @@ export default {
 // recalculate the current date
 let currentDate = new Date
 let totalMS = currentDate.getTime();
-
 
 </script>

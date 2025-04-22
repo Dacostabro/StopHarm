@@ -9,17 +9,17 @@
 
         <ion-footer>
             <ion-toolbar class="hotlines_footer_bg">
-                <ion-title></ion-title>
+                <ion-title>
+                    <a href = "/home">
+                        <ion-button id="hotlineBack">Back to Home</ion-button>
+                    </a>
+
+                </ion-title>
             </ion-toolbar>
         </ion-footer>
 
         <ion-content>
-            <h2>Hotlines</h2>
-
-            <a href = "/home">
-                <ion-button>Back to Home</ion-button>
-            </a>
-            
+                        
             <ion-list :inset="true">
 
                 <h3>Crisis Text Line</h3>

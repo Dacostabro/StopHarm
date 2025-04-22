@@ -9,20 +9,22 @@
 
         <ion-footer>
             <ion-toolbar class="grounding_footer_bg">
-                <ion-title></ion-title>
+                <ion-title> 
+                    <a href = "/home">
+                        <ion-button id="groundBack">Back to Home</ion-button>
+                    </a>
+
+                </ion-title>
             </ion-toolbar>
         </ion-footer>
         
         <ion-content>
-            <h2>Grounding Techniques</h2>
             
-            <a href = "/home">
-                <ion-button>Back to Home</ion-button>
-            </a>
+            
             
             <ion-accordion-group>
                 <ion-accordion value="first">
-                <ion-item slot="header" color="light">
+                <ion-item slot="header" id="accordionAlign">
                     <ion-label><b>5-4-3-2-1 Technique</b></ion-label>
                 </ion-item>
                     <div class="ion-padding" slot="content"><b>How it works:</b>
@@ -36,7 +38,7 @@
 
 
                 <ion-accordion value="second">
-                <ion-item slot="header" color="light">
+                <ion-item slot="header" id="accordionAlign">
                     <ion-label><b>Categories</b></ion-label>
                 </ion-item>
                     <div class="ion-padding" slot="content"><b>How it works:</b>
@@ -63,7 +65,7 @@
 
 
                 <ion-accordion value="third">
-                <ion-item slot="header" color="light">
+                <ion-item slot="header" id="accordionAlign">
                     <ion-label><b>Body Awareness</b></ion-label>
                 </ion-item>
                     <div class="ion-padding" slot="content"><b>How it works:</b>
@@ -79,7 +81,7 @@
                 </ion-accordion>
 
                 <ion-accordion value="fourth">
-                <ion-item slot="header" color="light">
+                <ion-item slot="header" id="accordionAlign">
                     <ion-label><b>Mental Exercises</b></ion-label>
                 </ion-item>
                     <div class="ion-padding" slot="content"><b>How it works:</b>
@@ -100,7 +102,7 @@
 
 
             <ion-accordion value="fifth">
-                <ion-item slot="header" color="light">
+                <ion-item slot="header" id="accordionAlign">
                     <ion-label><b>Find Your Safe Place</b></ion-label>
                 </ion-item>
                     <div class="ion-padding" slot="content"><b>How it works:</b>
@@ -111,7 +113,7 @@
                 </ion-accordion>
 
                 <ion-accordion value="sixth">
-                <ion-item slot="header" color="light">
+                <ion-item slot="header" id="accordionAlign">
                     <ion-label><b>Recite Something in Order</b></ion-label>
                 </ion-item>
                     <div class="ion-padding" slot="content"><b>How it works:</b>
@@ -121,7 +123,7 @@
                 </ion-accordion>
 
                 <ion-accordion value="seventh">
-                <ion-item slot="header" color="light">
+                <ion-item slot="header" id="accordionAlign">
                     <ion-label><b>Affirmative Safe Words</b></ion-label>
                 </ion-item>
                     <div class="ion-padding" slot="content"><b>How it works:</b>
@@ -131,7 +133,7 @@
                 </ion-accordion>
 
                 <ion-accordion value="eigth">
-                <ion-item slot="header" color="light">
+                <ion-item slot="header" id="accordionAlign">
                     <ion-label><b>Visualize</b></ion-label>
                 </ion-item>
                     <div class="ion-padding" slot="content"><b>How it works:</b>
@@ -140,35 +142,6 @@
                     
                     </div>
                 </ion-accordion>
-
-               
-
-
-
-
-
-
-
-
-                <ion-accordion value="nth">
-                <ion-item slot="header" color="light">
-                    <ion-label><b>template Accordion</b></ion-label>
-                </ion-item>
-                    <div class="ion-padding" slot="content"><b>How it works:</b>
-                    <br>
-                    
-                    </div>
-                </ion-accordion>
-
-
-
-
-
-
-
-
-
-
 
             </ion-accordion-group>
 
