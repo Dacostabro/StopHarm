@@ -10,7 +10,7 @@
         <ion-footer>
             <ion-toolbar class="home_footer_bg">
                <!-- <ion-title>You've visited ## days in a row. Good job!</ion-title> -->
-                <ion-title>You're doing good visiting!</ion-title>
+                <ion-title>Proud of you!</ion-title>
             </ion-toolbar>
         </ion-footer>
 
