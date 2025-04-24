@@ -188,7 +188,7 @@ ion-textarea.custom {
     --padding-start: 10px;
     --placeholder-color: black;
     --placeholder-opacity: 0.8;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
   }
 
   #groundBack {
@@ -212,8 +212,14 @@ ion-textarea.custom {
   #accordionAlign {
 	padding: 15px;
 	--background: #bfd6ea;
+	text-decoration: none;
+	color: black;
   }
  
+  #caller {
+	color: black;
+  }
+
   ion-accordion.accordion-expanding,
   ion-accordion.accordion-expanded {
     width: calc(100% - 32px);

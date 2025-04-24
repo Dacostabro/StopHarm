@@ -133,6 +133,53 @@
 
                 </ion-accordion>
 
+                <ion-accordion value="eigth">
+                <ion-item slot="header" id="accordionAlign">
+                    <ion-label>If you self-harm to express pain and intense emotions:</ion-label>
+                </ion-item>
+                <div class="ion-padding" slot="content">Paint, draw, or scribble on a big piece of paper with red ink or paint.</div>
+                <div class="ion-padding" slot="content">Start a journal in which to express your feelings.</div>
+                <div class="ion-padding" slot="content">Compose a poem or song to say whay you feel.</div>
+                <div class="ion-padding" slot="content">Write down any negative feelings and then rip the paper up.</div>
+                <div class="ion-padding" slot="content">Listen to music that expresses what you're feeling.</div>
+
+                </ion-accordion>
+
+                <ion-accordion value="ninth">
+                <ion-item slot="header" id="accordionAlign">
+                    <ion-label>If you self-harm to calm and soothe yourself:</ion-label>
+                </ion-item>
+                <div class="ion-padding" slot="content">Take a bath or hot shower.</div>
+                <div class="ion-padding" slot="content">Pet or cuddle with a dog or cat.</div>
+                <div class="ion-padding" slot="content">Wrap yourself in a warm blanket.</div>
+                <div class="ion-padding" slot="content">Massage your neck, hands, and feet.</div>
+                <div class="ion-padding" slot="content">Listen to calming music.</div>
+
+                </ion-accordion>
+
+                <ion-accordion value="tenth">
+                <ion-item slot="header" id="accordionAlign">
+                    <ion-label>If you self-harm because you feel disconnected or numb:</ion-label>
+                </ion-item>
+                <div class="ion-padding" slot="content">Call a friend (you don't have to talk about self-harm).</div>
+                <div class="ion-padding" slot="content">Take a cold shower.</div>
+                <div class="ion-padding" slot="content">Hold an ice cube in the crook of your arm or leg.</div>
+                <div class="ion-padding" slot="content">Chew something with a very strong tase, like chili pepers, peppermint, or a grapefruit peel.</div>
+                <div class="ion-padding" slot="content">Go online to a self-help website, chat room, or message board.</div>
+                </ion-accordion>
+
+                <ion-accordion value="eleventh">
+                <ion-item slot="header" id="accordionAlign">
+                    <ion-label>If you self-harm to release tension or vent anger:</ion-label>
+                </ion-item>
+                <div class="ion-padding" slot="content">Exercise vigorously - run, dance, jump rope, or hit a punching bag.</div>
+                <div class="ion-padding" slot="content">Punch a cushion or mattress or scream into your pillow.</div>
+                <div class="ion-padding" slot="content">Squeeze a stress ball or squish Play-Doh or clay.</div>
+                <div class="ion-padding" slot="content">Rip something up (sheets of paper, a magazine).</div>
+                <div class="ion-padding" slot="content">Make some noise (play an instrument, bang on pots and pans).</div>
+
+                </ion-accordion>
+
             </ion-accordion-group>
 
         </ion-content>
